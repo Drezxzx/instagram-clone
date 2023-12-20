@@ -1,0 +1,96 @@
+.img-detail {
+    width: 9%;
+}
+body{
+    padding-top: 0%;
+}
+img.circle100-dtail {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section.user-information {
+    margin-top: 10%;
+}
+section.user-information {
+    color: white;
+    padding: 2%;
+}
+.username {
+    display: flex;
+    gap: 26%;
+    align-items: center;
+}
+
+strong.name-user {
+    font-size: 13px;
+    padding: 2%;
+}
+.description-user {
+    font-size: 12px;
+    padding: 2%;
+}
+section.detail-follow {
+    color: white;
+    border-bottom: solid 0.5px #454545;
+    display: flex;
+    border-top: solid 0.5px #454545;
+    gap: 7%;
+    justify-content: center;
+    padding: 5%;
+    /* margin: 0%; */
+    margin-block: 5%;
+}
+.follower-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+
+}
+.follower-wrapper strong {
+    font-size: 74%;
+    color: #a9a3a3;
+}
+.buttons {
+    display: flex;
+    gap: 6%;
+    padding: 3%;
+}
+
+button#edit-user {
+    background: #3b3a42;
+    width: 124px;
+    padding: 3%;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0;
+    padding: -7px;
+    color: white;
+    border-radius: 12px;
+}
+
+button#follow {
+    font-weight: bold;
+    background: #3b3a42;
+    width: 124px;
+    font-size: 12px;
+    padding: 3%;
+    border: 0;
+    padding: -7px;
+    color: white;
+    border-radius: 12px;
+}
+button#unfolow {
+    font-weight: bold;
+    background: #3b3a42;
+    width: 124px;
+    font-size: 12px;
+    padding: 3%;
+    border: 0;
+    padding: -7px;
+    color: white;
+    border-radius: 12px;
+}
+
